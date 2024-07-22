@@ -5,72 +5,175 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Question Solver Support</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
+        /* Resetting default styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
         }
+        
+        /* Body styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        
+        /* Container styles */
+        .container {
+            width: 100%;
+            max-width: 800px;
+            padding: 30px;
+            background-color: #fff;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            text-align: center;
+            overflow: hidden;
+            animation: fadeIn 0.6s ease-out;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        /* Heading styles */
         h1 {
             color: #333;
-        }
-        .contact-info {
-            margin-bottom: 20px;
-        }
-        .contact-info p {
-            margin-bottom: 5px;
-        }
-        .contact-info h3 {
+            font-size: 2.5em;
             margin-bottom: 10px;
         }
-        .links {
-            margin-top: 20px;
+        
+        h2 {
+            color: #555;
+            font-size: 1.8em;
+            margin-bottom: 20px;
         }
+        
+        /* Contact info styles */
+        .contact-info {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+            text-align: left;
+        }
+        
+        .contact-info h3 {
+            color: #333;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            padding-bottom: 5px;
+            border-bottom: 2px solid #007bff;
+            display: inline-block;
+        }
+        
+        .contact-info p {
+            color: #555;
+            margin: 5px 0;
+        }
+        
+        /* Links styles */
+        .links {
+            margin-bottom: 30px;
+            text-align: left;
+        }
+        
+        .links h3 {
+            color: #333;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+        
+        .links p {
+            color: #555;
+            margin-bottom: 20px;
+        }
+        
+        .links ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+        
+        .links ul li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+        
+        .links a {
+            text-decoration: none;
+            color: #007bff;
+            transition: color 0.3s;
+        }
+        
+        .links a:hover {
+            color: #0056b3;
+        }
+        
+        /* Footer styles */
         .footer {
-            margin-top: 30px;
             font-size: 0.8em;
             color: #666;
+            text-align: center;
+            margin-top: 30px;
+        }
+        
+        .footer a {
+            color: #666;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .footer a:hover {
+            color: #333;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to AI Question Solver Support</h1>
-    
-    <div class="contact-info">
-        <h3>Contact Information:</h3>
-        <p><strong>Legal Address:</strong> Seker Mh. No: 42 Konya / Türkiye</p>
-        <p><strong>Email Address:</strong> <a href="mailto:keremsoft42@gmail.com">keremsoft42@gmail.com</a></p>
-    </div>
-    
-    <div>
-        <h3>How to Reach Us:</h3>
-        <p><strong>Email Support:</strong> For any inquiries or issues, please email us at <a href="mailto:keremsoft42@gmail.com">keremsoft42@gmail.com</a>. Our support team will respond promptly during business hours.</p>
-    </div>
-    
-    <div class="links">
-        <h3>Feedback and Feature Requests:</h3>
-        <p>We value your feedback! If you have any suggestions for improving our app or if there's a feature you'd like to see added, please let us know through our <a href="#">Feedback Form</a> or by contacting us directly.</p>
+    <div class="container">
+        <h1>AI Question Solver</h1>
+        <h2>Welcome to Our Support Page</h2>
         
-        <h3>Privacy Policy:</h3>
-        <p>To understand how we handle your data, please review our <a href="#">Privacy Policy</a> for detailed information.</p>
+        <div class="contact-info">
+            <h3>Contact Information:</h3>
+            <p><strong>Legal Address:</strong> AI Question Solver, Seker, No: 42, Konya / Türkiye</p>
+            <p><strong>Email Address:</strong> <a href="mailto:keremsoft42@gmail.com">keremsoft42@gmail.com"</a></p>
+        </div>
         
-        <h3>App Updates and Announcements:</h3>
-        <p>Stay informed about new features, updates, and announcements by visiting our <a href="#">News</a> section regularly.</p>
+        <div class="links">
+            <h3>How to Reach Us:</h3>
+            <p><strong>Email Support:</strong> For any inquiries or issues, please email us at <a href="mailto:keremsoft42@gmail.com"">keremsoft42@gmail.com"</a>. Our support team will respond promptly during business hours.</p>
+            
+            <h3>Feedback and Feature Requests:</h3>
+            <p>We value your feedback! If you have any suggestions for improving our app or if there's a feature you'd like to see added, please let us know through our <a href="keremsoft42@gmail.com">Support Email Address</a> or by contacting us directly.</p>
+            
+            <h3>Privacy Policy:</h3>
+            <p>To understand how we handle your data, please review our <a href="http://aikutto.com/privacy-policy.html">Privacy Policy</a> for detailed information.</p>
+            
+            <h3>Follow Us:</h3>
+            <ul>
+                <li><a href="https://facebook.com/aikutto">Facebook</a></li>
+                <li><a href="https://x.com/aikutto">X (formerly Twitter)</a></li>
+                <li><a href="https://instagram.com/aikutto">Instagram</a></li>
+            </ul>
+        </div>
         
-        <h3>Troubleshooting Tips:</h3>
-        <p>For common issues and troubleshooting tips, please visit our <a href="#">FAQs</a> page.</p>
-        
-        <h3>Follow Us:</h3>
-        <p>Connect with us on social media:</p>
-        <ul>
-            <li><a href="https://facebook.com/aikutto">Facebook</a></li>
-            <li><a href="https://x.com/aikutto">X (formerly Twitter)</a></li>
-            <li><a href="https://instagram.com/aikutto">Instagram</a></li>
-        </ul>
-    </div>
-    
-    <div class="footer">
-        <p>&copy; 2024 AI Question Solver. All rights reserved.</p>
-        <p>Designed by AI Question Solver</p>
+        <div class="footer">
+            <p>&copy; 2024 AI Question Solver. All rights reserved. | Designed by AI Question Solver</p>
+        </div>
     </div>
 </body>
 </html>
